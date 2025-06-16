@@ -13,7 +13,7 @@ It does nothing fancy.  The startup procedure looks like:
 
 It does **NOT** do any:
 - process state tracking
-- restarts
+- process restarts on failure / exit
 - communication with other user processes
 - starting / stopping of tasks
 - anything similar to "services"
